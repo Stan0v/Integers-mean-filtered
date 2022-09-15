@@ -25,7 +25,7 @@ System: AMD Ryzen 6 cores 3GHz, 16Gb RAM
 
 At first sight, static threads seems to be enough, but after some thinking I came to understanding that some threads would stand idle,
 due to corresponding adjacent medians. Nevertheless current implementation in static threads do the task in place while thread pool using additional memory 
-to copy sorted elements.
+to copy filtered elements.
 
 Thread pool implementation based on information from Anthony Williams "C++ Concurrency in Action" book davanced with lock free work stealing queue. 
 
