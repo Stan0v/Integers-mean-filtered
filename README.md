@@ -43,4 +43,4 @@ binary search vs shifts within cache line to search element, thread affinity, th
 So for the current solution there are still many places to research and optimize.
 
 
-As about count assesment when single threaded approach performs faster, genetic algorithm could be used to find an extremum. But I implemented it in simple 'binary' powers of 2
+As about count assesment when single threaded approach performs faster, genetic algorithm could be used to find an extremum. But I implemented it in simple 'binary' powers of 2 to simplify and speed up the process
