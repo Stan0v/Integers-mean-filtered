@@ -19,7 +19,7 @@ Total time, ns: 30598625000 (30.6s) Average time, ns: 30598625 (30.6 ms)
 
 COUNT ASSESSMENT
 Array size: 10000000 Iteration count: 10
-Numbers count: 15232 Time difference: 5470 ns
+Numbers count: 15232 Time difference: 5470 ns (single thread faster than thread pool here)
 
 System: AMD Ryzen 6 cores 3GHz, 16Gb RAM
 
