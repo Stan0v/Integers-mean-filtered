@@ -19,7 +19,7 @@ Total time, ns: 30598625000 (30.6s) Average time, ns: 30598625 (30.6 ms)
 
 COUNT ASSESSMENT
 Array size: 10000000 Iteration count: 10
-Numbers count: 15232 Time difference: 5470
+Numbers count: 15232 Time difference: 5470 ns
 
 At first sight, static threads seems to be enough, but after some thinking I came to understanding that some threads would stand idle,
 due to corresponding adjacent medians. Nevertheless current implementation in static threads do the task in place while thread pool using additional memory 
