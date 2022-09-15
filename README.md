@@ -21,6 +21,8 @@ COUNT ASSESSMENT
 Array size: 10000000 Iteration count: 10
 Numbers count: 15232 Time difference: 5470 ns
 
+System: AMD Ryzen 6 cores 3GHz, 16Gb RAM
+
 At first sight, static threads seems to be enough, but after some thinking I came to understanding that some threads would stand idle,
 due to corresponding adjacent medians. Nevertheless current implementation in static threads do the task in place while thread pool using additional memory 
 to copy sorted elements.
