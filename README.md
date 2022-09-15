@@ -41,3 +41,6 @@ Despite of bigger O complexity of 2. option compared with 1. option. Final resul
 As many factors influence final performance, including data parallelization aspect - SIMD, cache optimizations - e.g.
 binary search vs shifts within cache line to search element, thread affinity, thread pool tasks split and so on and so forth
 So for the current solution there are still many places to research and optimize.
+
+
+As about count assesment when single threaded approach performs faster, genetic algorithm could be used to find an extremum. But I implemented it in simple 'binary' powers of 2
